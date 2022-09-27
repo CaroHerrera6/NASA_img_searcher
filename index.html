@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buscador de imágenes de la NASA</title>
+    <link rel="stylesheet" href="./shadow.css" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="text-center container">
+        <div class="row py-lg-3">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">NASA images</h1>
+            <input
+              type="search"
+              class="form-control"
+              name="search"
+              id="inputBuscar"
+              placeholder="Ej.: SUN"
+            />
+            <button class="btn btn-primary my-2" id="btnBuscar">
+              Search images
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="contenedor" class="row row-cols-3"></div>
+      </div>
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="mb-1">
+          Este sitio forma parte de
+          <a href="https://jovenesaprogramar.edu.uy/" target="_blank">
+            Jovenes a Programar</a
+          >, y consume datos de
+          <a href="https://api.nasa.gov/" target="_blank"> api.nasa.gov</a>
+        </p>
+        <p class="mb-1">Generado con fines estrictamente educativos.</p>
+      </div>
+    </footer>
+
+    <script src="js/space.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>

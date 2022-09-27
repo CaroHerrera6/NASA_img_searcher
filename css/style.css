@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://smd-prod.s3.amazonaws.com/ciencia-red/s3fs-public/styles/background_image_file_size/public/thumbnails/image/stsci-01ga76rm0c11w977jrhgj5j26x.png?itok=YqJT3Wnm");
+}
+
+main {
+  min-height: calc(100vh - 160px);
+}
+
+h1 {
+  color: beige;
+  margin: 50px;
+}
+
+.mb-1 {
+  color: beige;
+}
+.mb-1 a {
+  color: skyblue;
+}
+.text {
+  height: 50px;
+  max-width: fit-content;
+}
+.col {
+  margin-top: 5px;
+  height: 200px;
+}
+
+.tamaño {
+  width: 20rem;
+  height: 12rem;
+
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+.list-group-item {
+  margin: 10px;
+  width: 300px;
+}
+.prueba {
+  height: 100px;
+}
